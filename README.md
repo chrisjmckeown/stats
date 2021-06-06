@@ -6,6 +6,8 @@
 
 ## Description
 
+The program will allow numeric values to be recorded into a text file and allow a summary of the values to be printed.
+
 ## Table of Contents
 
 - [Installation](#Installation)
@@ -16,20 +18,54 @@
 
 ## Installation
 
+1. Download and install [Node.js](http://nodejs.org/) (that will install npm as well)
+2. Clone this repo
+3. Install the 2 dependancies.<br />
+   ```
+   npm install inquirer
+   npm install axios
+   ```
+4. You are done for the setup, run the readme generator using
+   ```
+   node index.js
+   ```
+
 ### Technologies Utilized
 
-![GitHub language count](https://img.shields.io/github/languages/count/chrisjmckeown/stats?style=flat-square)![GitHub top language](https://img.shields.io/github/languages/top/chrisjmckeown/stats?style=flat-square)
-
-"Remove unwanted badges"
-<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 ## Usage
+
+Once installed:
+
+- Run the readme generator using:
+
+```
+   node index.js
+```
+
+- You will be prompted with:
+  - Set path => Allows you to append to or create a stat.txt file at the provide location
+  - Help => displays a description of what the app does
+  - Exit => exit the application
+- Once a path is set you can:
+  - Add => add a number to the file
+  - Summary => prints an output of
+    - Count
+    - Min. Value
+    - Max. Value
+    - Average Value
+  - Set path => change the path/file
+  - Help => displays a description of what the app does
+  - Exit => exit the application
 
 ## License
 
 [![license](https://img.shields.io/github/license/chrisjmckeown/stats.svg?style=flat-square)](https://github.com/chrisjmckeown/stats/blob/master/LICENSE)
 
 ## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
