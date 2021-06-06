@@ -23,7 +23,6 @@ The program will allow numeric values to be recorded into a text file and allow 
 3. Install the 2 dependancies.<br />
    ```
    npm install inquirer
-   npm install axios
    ```
 4. You are done for the setup, run the readme generator using
    ```
