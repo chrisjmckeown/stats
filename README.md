@@ -20,7 +20,7 @@ The program will allow numeric values to be recorded into a text file and allow 
 
 1. Download and install [Node.js](http://nodejs.org/) (that will install npm as well)
 2. Clone this repo
-3. Install the 2 dependancies.<br />
+3. Install the 1 dependancy.<br />
    ```
    npm install inquirer
    ```
